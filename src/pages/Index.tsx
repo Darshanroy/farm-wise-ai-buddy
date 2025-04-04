@@ -2,7 +2,7 @@
 import React from 'react';
 import WelcomeSection from '@/components/WelcomeSection';
 import ChatInterface from '@/components/ChatInterface';
-import { Seedling } from 'lucide-react';
+import { Sprout } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -15,7 +15,7 @@ const Index = () => {
         <div className="container mx-auto py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Seedling className="h-6 w-6 text-farm-green-500" />
+              <Sprout className="h-6 w-6 text-farm-green-500" />
               <span className="font-bold text-xl text-farm-green-700">FarmWise</span>
             </div>
             <div>
