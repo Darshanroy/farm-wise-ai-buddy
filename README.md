@@ -24,16 +24,23 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Darshanroy/farm-wise-ai-buddy.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd farm-wise-ai-buddy
 
 # Step 3: Install the necessary dependencies.
 npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+
+#step 5: add API key for .env file, take API key from Google AI studio(https://aistudio.google.com/)
+#step 6: install dependencies 
+pip install Flask Flask-CORS google-generativeai python-dotenv
+
+#step 7: finally run the appy.py
+python app.py
 ```
 
 **Edit a file directly in GitHub**
@@ -60,14 +67,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+-flask 
+-python
 
-Simply open [Lovable](https://lovable.dev/projects/11d40b4b-8e19-4480-b8b2-533c1b57abed) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## for live app (yet to publish)

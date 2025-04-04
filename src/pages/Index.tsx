@@ -42,7 +42,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="mt-16 text-center text-sm text-farm-brown-600">
           <p>© 2025 FarmWise AI Buddy • Helping farmers grow better</p>
-          <p className="mt-1 text-xs">This is a demo application. Advice is simulated.</p>
+          {/* <p className="mt-1 text-xs">This is a demo application. Advice is simulated.</p> */}
         </footer>
       </main>
     </div>
